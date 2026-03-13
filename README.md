@@ -1,16 +1,16 @@
 # Ransomware written in Go, for educational purposes
 
-## 📜 Overview
+## Overview
 A working ransomware written in **Go** (Golang), designed to encrypt all the user files using **AES-256 encryption**
 
-### ⚠️ Disclaimer
+### Disclaimer
 This project is intended for **educational purposes only** to help understand the mechanisms of ransomwares. 
 Misuse of this code for malicious purposes is illegal and unethical!
 Test this code only on a virtual machine or on devices that do not belong to others.
 
 ---
 
-## 🚀 Features
+## Features
 1. **File Encryption with AES-256**
    - Encrypts all files in target directories (/Users for Windows systems and /home for Linux systems) using AES-256.
 
@@ -27,7 +27,7 @@ Test this code only on a virtual machine or on devices that do not belong to oth
 
 ---
 
-## 🔧 Technical Details
+## Technical Details
 ### File Encryption
 - **Algorithm:** AES-256 in GCM mode
 - **Targets:** Recursively scans and encrypts files in specific directories (`/home/user` on Linux and `C:\Users` on Windows, for example).
@@ -44,7 +44,7 @@ Test this code only on a virtual machine or on devices that do not belong to oth
 
 ---
 
-## 🛠️ Installation & Usage
+## Development
 ### Prerequisites
 - **Go (Golang):** Install the Go compiler from [golang.org](https://golang.org).
 - **Dependencies:**
@@ -71,21 +71,21 @@ Test this code only on a virtual machine or on devices that do not belong to oth
 
 ---
 
-## ✨ FUTURE UPDATES:
+## FUTURE UPDATES:
  - Function to generate a random 32-byte encryption key, to write in the ransom note.
  - Function to securely transmit the encryption key to an external server.
  - Enhance code obfuscation techniques to bypass Microsoft defender.
 
 ---
 
-## 🛡️ Legal and Ethical Use
+## Legal and Ethical Use
 This project must only be used for **research** and **cybersecurity training**. 
 Unauthorized deployment of this program is strictly prohibited and punishable under applicable laws.
 I am not responsible for any malicious use of this project. This code is intended solely for educational purposes.
 
 ---
 
-### 📫 Contact
+### Contact
 For questions or collaborations, please reach out to:
 - Email: edoardo.enricomaria.fornasier@gmail.com
 - GitHub: [CyberCactus64](https://github.com/CyberCactus64)
